@@ -12,7 +12,7 @@ div, p {
 }
 form {
   padding: 16px;
-  width: 16px*20;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -114,6 +114,9 @@ button {
 
   @media (max-width:480px){
     .red{
+      width: 100%;
+    }
+    form{
       width: 100%;
     }
   }
